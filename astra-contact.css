@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-image: url('contact-hero-1.jpg');
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header img{
+  float: left;
+  height: 50px;
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.header .navbar{
+  float: right;
+  padding-right: 100px;
+}
+.header .navbar ul{
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+}
+.header .navbar ul li{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: red;
+}
+.header .navbar ul a{
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+  transition: transform 450ms;
+}
+.header .navbar ul a:visited{
+  color:red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.header .navbar ul a:hover{
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  transform: scale(1.5);
+}
+.header p{
+  text-align: center;
+  margin-top: 220px;
+  color: wheat;
+  font-size: 70px;
+}
+.para{
+  display: flex;
+  justify-content: center;
+  margin-top: 550px;
+  height: 400px;
+}
+.para .para-1{
+  margin-right: 200px;
+}
+.para .para-1 .para-1-1{
+  font-size: xx-large;
+  font-weight: bold;
+  line-height: 4;
+  color: goldenrod;
+}
+.para .para-1 .para-1-2{
+font-size: x-large;
+font-weight: 200;
+color: gray;
+}
+.icon ul{
+  display: flex;
+}
+.icon ul li{
+  list-style: none;
+  color: black;
+}
+.icon .fa{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: xx-large;
+}
+.fa-twitter{
+  margin-left: 40px;
+  cursor: pointer;
+}
+.fa-twitter:hover{
+  opacity: 0.7;
+}
+.fa-facebook{
+  margin-left: 40px;
+  cursor: pointer;
+}
+.fa-facebook:hover{
+  opacity: 0.7;
+}
+.fa-instagram{
+  margin-left: 40px;
+  cursor: pointer;
+}
+.fa-instagram:hover{
+  opacity: 0.7;
+}
+.para .para-2{
+  margin-top: 50px;
+  color: goldenrod;
+  font-weight: bold;
+}
+.para .para-2 .para-2-1{
+  font-size: xx-large;
+}
+.para .para-2 .form{
+  margin-top: 50px;
+  font-size: xx-large;
+  font-weight: bold;
+  line-height: 2;
+}
+.para .para-2 .form input{
+  font-size: x-large;
+  padding: 5px;
+}
+.para .para-2 button{
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: gold;
+  color: red;
+  font-size: large;
+  padding: 10px;
+  border: 2px solid gold;
+  border-radius: 5px;
+}
+.para .para-2 button:hover{
+  opacity: 0.8;
+}
+::placeholder{
+  color: rgb(205, 242, 130);
+  font-style: italic;
+  font-size: large;
+  padding: 10px 10px 10px 10px;
+  opacity: 0.5;
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: rgb(96, 96, 96);
+  border-bottom: 4px solid goldenrod;
+  border-radius: 5px;
+  color: chartreuse;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+.topic{
+  margin-top: 200px;
+}
+.topic .topic-1{
+  text-align: center;
+  margin-top: 90px;
+  margin-left: 10px;
+  font-size: xx-large;
+}
+.topic .topic-2{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.topic .topic-2 #img-1{
+  margin-right: 40px;
+  border-radius: 20px;
+}
+.topic .topic-2 #img-2{
+  margin-right: 40px;
+  border-radius: 20px;
+}
+.topic .topic-2 #img-3{
+  margin-right: 40px;
+  border-radius: 20px;
+}
+.topic .topic-2 #img-4{
+  margin-right: 40px;
+  border-radius: 20px;
+}
+.copy{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}

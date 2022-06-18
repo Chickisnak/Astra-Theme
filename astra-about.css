@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-image: url('header-hero-1.jpg');
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header img{
+  float: left;
+  height: 50px;
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.header .navbar{
+  float: right;
+  padding-right: 100px;
+}
+.header .navbar ul{
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+}
+.header .navbar ul li{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: red;
+}
+.header .navbar ul a{
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+  transition: transform 450ms;
+}
+.header .navbar ul a:visited{
+  color:red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.header .navbar ul a:hover{
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  transform: scale(1.5);
+}
+.header p{
+  text-align: center;
+  margin-top: 300px;
+  color: white;
+  font-size: 70px;
+}
+.para-1{
+  margin-top: 750px;
+}
+.para-1 p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: green;
+  font-size: xx-large;
+}
+.img1{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-top: 100px;
+  background-color: rgb(236, 233, 228);
+}
+.text .text-1{
+  padding-right: 50px;
+  margin-top: 20px;
+}
+.text .text-2{
+  padding-left: 50px;
+  margin-top: 20px;
+}
+.text .text-1 p{
+  text-align: center;
+  margin-top: 40px;
+}
+.text .text-2 p{
+  text-align: center;
+  margin-top: 40px;
+}
+.text .text-1 .text-11{
+  color: green;
+  font-size: xx-large;
+  font-weight: 800;
+}
+.text .text-2 .text-22{
+  color: green;
+  font-size: xx-large;
+  font-weight: 800;
+}
+.text .text-1 .text-111{
+  color:red;
+  font-size: larger;
+}
+.text .text-2 .text-222{
+  color:red;
+  font-size: larger;
+}
+.footer{
+  margin-top: 150px;
+}
+.footer .footer-1{
+  padding-top: 40px;
+ justify-content: center;
+ text-align: center;
+ font-size: xx-large;
+ color:rgb(43, 240, 13);
+}
+.footer img{
+  margin-left: 715px;
+  height: 90px;
+  margin-top: 20px;
+}
+.footer .name{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: larger;
+  font-weight: bold;
+}
+.footer .copy{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}

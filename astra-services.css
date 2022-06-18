@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-image: url('services-hero.jpg');
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header img{
+  float: left;
+  height: 50px;
+  border: 3px solid whitesmoke;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.header .navbar{
+  float: right;
+  padding-right: 100px;
+}
+.header .navbar ul{
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+}
+.header .navbar ul li{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: red;
+}
+.header .navbar ul a{
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+  transition: transform 450ms;
+}
+.header .navbar ul a:visited{
+  color:red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.header .navbar ul a:hover{
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  transform: scale(1.5);
+}
+.header p{
+  text-align: center;
+  margin-top: 220px;
+  color: white;
+  font-size: 70px;
+}
+.service-1{
+  display: flex;
+  margin-top: 500px;
+  margin-left: 300px;
+}
+.service-1 img{
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.service-1 .text-1{
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.service-1 .text-1 h1{
+  margin-bottom: 30px;
+  color: green;
+}
+.service-1 .text-1 h2{
+  margin-top: 30px;
+}
+.service-1 .text-1 button{
+  margin-top: 30px;
+  padding: 16px 32px 16px 32px;
+  font-size: large;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.service-1 .text-1 button:hover{
+  color: bisque;
+  background-color: blueviolet;
+}
+.service-2{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+.service-2 img{
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.service-2 .text-2{
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.service-2 .text-2 h1{
+  margin-bottom: 30px;
+  color: green;
+}
+.service-2 .text-2 h2{
+  margin-top: 30px;
+}
+.service-2 .text-2 button{
+  margin-top: 30px;
+  padding: 16px 32px 16px 32px;
+  font-size: large;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.service-2 .text-2 button:hover{
+  color: bisque;
+  background-color: blueviolet;
+}
+.service-3{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+.service-3 img{
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.service-3 .text-3{
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.service-3 .text-3 h1{
+  margin-bottom: 30px;
+  color: green;
+}
+.service-3 .text-3 h2{
+  margin-top: 30px
+}
+.service-3 .text-3 button{
+  margin-top: 30px;
+  padding: 16px 32px 16px 32px;
+  font-size: large;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.service-3 .text-3 button:hover{
+  color: bisque;
+  background-color: blueviolet;
+}
+.thought{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.thought .text-1{
+  margin-top: 50px;
+  line-height: 1.4;
+  font-size: x-large;
+}
+.thought .text-1 h2{
+  color: green;
+}
+.thought .text-1 p{
+  margin-top: 30px;
+  font-style: italic;
+  color: rgb(65, 127, 3);
+}
+.icon{
+  margin-top: 50px;
+  margin-left: 260px;
+  padding-top: 50px;
+  font-size: xx-large;
+}
+/* Style all font awesome icons */
+.fa {
+  margin-top: 50px;
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  background-color: chartreuse;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-left: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.fa-linkedin{
+  background: #3B5998;
+  color: white;
+  margin-left: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+/* Twitter */
+.fa-instagram{
+  background: #55ACEE;
+  color: white;
+  margin-left: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.copy{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
